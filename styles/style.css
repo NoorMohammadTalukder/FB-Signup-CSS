@@ -1,0 +1,211 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+   background-color: #e3e3e384;
+   /* background-color: #F5F5FB; */
+   /* content: '';
+    clear: both;
+    display: block; */
+
+
+}
+.header{
+    background-color: #3C5C9A;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.logo-area{
+    width: 20%;
+}
+.logo-area img{
+    width: 150px;
+    
+}
+.login-area{
+    width: 80%;
+}
+.left img{
+    width: 70%;
+    height: 100%;
+}
+.form-style{
+    width: 80%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+    padding: 0;
+    color: white;
+    font-size: 12px;
+}
+form div{
+    margin-left: 10px;
+}
+.email,.password, .submit{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    
+}
+.password a:link{
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+}
+.submit,.password {
+    padding-top: 14px;
+}
+.submit input{
+    background-color: #4267b2;
+    border:0.5px solid rgba(0, 0, 0, 0.351);
+    padding:2px;
+    color: white;
+}
+.sign-up{
+    /* background-color: #e3e3e384; */
+}
+.signup-container{
+    width: 80%;
+    margin: auto;
+}
+.sign-up::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.right h2, h5{
+    margin-left: 23px;
+    /* color: red; */
+}
+.left{
+    width: 60%;
+    float: left;
+}
+.right{
+    width: 40%;
+    float: left;
+}
+form{
+    margin-left:0 ;
+}
+.input-first-part input{
+   width: 100%;
+   box-sizing: border-box;
+   border: 1px solid #bdc7d8;
+   border-radius: 5px;
+   padding: 5px 10px;
+   font-size: 18px;
+   margin: 3px;
+
+}
+.full-name{
+   margin: 0px; 
+   overflow: hidden;
+}
+.first-name{
+    width: 40%;
+    float: left;
+    margin-right: 1%;
+}
+.last-name{
+    width: 40%;
+    float: left;
+}
+.birthday{
+    overflow: hidden;
+}
+.birthday h2{
+    /* color: red; */
+    margin-left: 13px;
+}
+.birth-date select{
+    border: 1px solid #ccc;
+    padding: 5px;
+    float: left;
+}
+.birth-link{
+font-size: 10px;
+
+}
+.gender{
+    margin: 10px;
+}
+.gender label{
+    font-size: 18px;
+    font-weight: 400;
+  
+}
+.text-box{
+    color: #413e3e;
+    opacity: 0.5;
+    font-size: 12px;
+}
+.btn input{
+    background-color: rgb(9, 121, 9);
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    min-width: 150px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+.after-form a{
+    text-decoration: none;
+}
+.form-last{
+    margin: 0;
+    /* background-color: red; */
+}
+
+/* footer started */
+.footer{
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: white;
+}
+.footer ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.footer ul li{ 
+   display: inline;
+  
+
+}
+.footer-container{
+    width: 60%;
+    margin: auto;
+}
+.footer  ul a{ 
+text-decoration: none;
+color: rgba(61, 59, 59, 0.793);
+font-size: 14px;
+
+}
+.footer .footer-container .top ul li {
+    margin-right: 7px;
+    /* color: red; */
+}
+.footer .footer-container .middle ul li {
+    margin-right: 13px;
+}
+.plus{
+    /* background-color: red; */
+    border: 1px solid rgb(43, 41, 41);
+    padding: 0 3px;
+}
+hr{
+    border: 0;
+    border-bottom: 1px solid rgba(64, 62, 62, 0.264);
+}
+.bottom{
+    color: rgba(75, 72, 72, 0.633);
+    margin-top: 15px;
+    
+}

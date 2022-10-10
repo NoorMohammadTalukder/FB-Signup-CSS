@@ -1,0 +1,45 @@
+@media screen and (max-width:980px) {
+    /* body{
+        /* background-color: red; */
+       
+    /* }  */
+    /* .header{
+        background-color: #3c9a50;
+        
+    } */
+    .container{
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center; 
+       /* background-color: red;    */
+    }
+    .login-area,.logo-area{
+        width: 100%;
+    }
+    .logo-area {
+        display: flex;
+        /* align-items: center; */
+        /* align-items: center; */
+  justify-content: center;
+    }
+    /* .login-area img{
+        display: block;
+    } */
+    .form-style{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+         align-items: center;
+        /* justify-content: center; */
+     
+    }
+    .left{
+        width: 100%;
+        float: none;
+    }
+    .right{
+        width: 100%;
+        float: none;
+    }
+}
